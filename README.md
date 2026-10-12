@@ -1,27 +1,19 @@
-while True:
-    a = float (input("Enter first number:"))
-    b = float (input("Enter second number:"))
-    print("\nchoose an operation:")
-    print("1. Addition")
-    print("2. Subtration")
-    print("3. Multiplication")
-    print("4. Division")
+# Python Calculator
 
-    choice = input("Enter your choice (1-4): ")
-    if choice == "1":
-        print("Result:", a + b)
-    elif choice == "2":
-        print("Result:", a - b)
-    elif choice == "3":
-        print("Result:", a * b)
-    elif choice == "4":
-        if b != 0:
-            print("Result:", a / b)
-        else:
-            print("Cannot divide by zero!")
-    else:
-        print("Invalid choice!")
-    again = input("calculate again? (yes/no): ")
-    if again.lower() != "yes":
-        print("Thankyou for using the calculator!")
-        break                            
+A simple calculator built using Python.
+
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Handles division by zero
+- Allows repeated calculations
+
+## Language
+Python
+
+## How to Run
+Run the file using:
+
+python Pythoncalculator.py
